@@ -75,6 +75,7 @@ header{
 
 main{
     background-color: #2D236A;
+    padding-bottom: 50px;
 }
 .main-section{
     width: 1200px;
@@ -128,3 +129,90 @@ border-radius: 20px;
     color: grey;
     margin-top: 10px;
 }
+/* previous and next page code here */
+
+#previous-nexr-parent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#previous-nexr-parent a{
+    color: white;
+    text-decoration: none;
+
+}
+#previous-nexr-parent h3 a{
+    background-color: #016b01;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+#previous-nexr-parent h3 a:hover{
+    background-color: #023902;
+}
+#previous-nexr-parent div a{
+    background-color: white;
+    color: black;
+    margin: 0 5px;
+    padding: 7px;
+    border-radius: 5px;
+}
+#previous-nexr-parent div a:first-child{
+    background-color: #016b01;
+}
+
+/* footer section code here */
+
+footer{
+    background-color: #850b79;
+}
+
+#footer-container{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 50px;
+    color: white;
+    padding-bottom: 40px;
+}
+.footer-first-item h3{
+  font-size: 30px;
+  padding: 50px 0;
+}
+.footer-first-item:first-child p{
+    margin: 5px 0 30px 0;
+}
+
+.footer-second-item h3{
+    font-size: 30px;
+    padding: 50px 0;
+}
+.footer-second-item a{
+    text-decoration: none;
+    color: white;
+}
+.footer-second-item p{
+    margin-bottom: 10px;
+}
+
+.footer-third-item div{
+    padding: 50px 0;
+    font-size: 30px; 
+}
+.footer-third-item div a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #1a1244;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer-third-item p{
+    margin-bottom: 10px;
+}
+.footer-third-item:last-child p{
+    margin-bottom: 40px;
+}
+
