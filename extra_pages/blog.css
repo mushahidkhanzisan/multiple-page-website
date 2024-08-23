@@ -3,6 +3,44 @@
     padding: 0;
     font-family: arial, sans-serif;
 }
+
+/* start navbar code */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A1244;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401e63;
+    position: sticky;
+    top: 0;
+}
+nav > div{
+    color: white;
+    font-size: 20px;
+}
+nav > ul{
+    display: flex;
+}
+nav > ul > li{
+  list-style-type: none;
+  margin: 10px 5px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+nav > ul > li > a:hover{
+    background-color: black;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* end navbar code */
+
 #article-container{
     width: 1200px;
     margin: 0 auto;
