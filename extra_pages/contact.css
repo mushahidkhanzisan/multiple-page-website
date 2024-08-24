@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav code start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A1244;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401e63;
+    position: sticky;
+    top: 0;
+}
+nav > div{
+    color: white;
+    font-size: 20px;
+}
+nav > ul{
+    display: flex;
+}
+nav > ul > li{
+  list-style-type: none;
+  margin: 10px 5px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+nav > ul > li > a:hover{
+    background-color: black;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* contact section code here */
+form{
+    width: 800px;
+    margin: 80px auto;
+    background-color: lightpink;
+    padding: 40px 0;
+    box-shadow: 10px 10px 10px 10px gray;
+    
+}
+form h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.paret-div input{
+    display: block;
+    margin: 20px auto;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding: 5px 20px;
+    border: none;
+    width: 400px;
+}
+#textareaID{
+  display: block;
+  margin: 30px auto;
+  width: 400px;
+  padding: 5px 20px;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+#btn{
+    display: block;
+    background: linear-gradient(to right, blue, #dd6075, aqua);
+    color:white ;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
